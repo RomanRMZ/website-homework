@@ -1,0 +1,426 @@
+.container {
+  max-width: 1680px;
+  margin: 0 auto;
+}
+.site-menu {
+  display: flex;
+  flex-direction: row;
+  color: #000;
+  font-family: "SamsungOne", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+}
+.site-header {
+  padding: 34px 0;
+}
+.logo {
+  width: 157px;
+  padding-left: 128px;
+}
+.nav-text {
+  display: flex;
+  column-gap: 90px;
+  color: #000;
+  font-family: SamsungOne;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-left: 211px;
+}
+.nav-text2 {
+  color: #000;
+  font-family: SamsungOne;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: auto;
+  padding-right: 128px;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+div#heading {
+  position: relative;
+  margin: 0 auto;
+  padding-top: 34px;
+}
+.heading {
+  position: absolute;
+  top: 213px;
+  bottom: 299px;
+  left: 128px;
+  right: 538px;
+  color: black;
+  font-size: 96px;
+  font-family: Samsung Sharp Sans;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+/*начало*/
+div#about-picture {
+  position: relative;
+  margin: 0 auto;
+  padding-top: 90px;
+}
+.about-picture {
+  position: absolute;
+  top: 301px;
+  bottom: 301px;
+  left: 128px;
+  right: 958px;
+  color: white;
+  font-size: 96px;
+  font-family: Samsung Sharp Sans;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+.text {
+  color: #000;
+  font-family: SamsungOne;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 42px */
+  padding-right: 128px;
+  padding-left: 128px;
+}
+.about-text {
+  padding-top: 111px;
+  padding-bottom: 90px;
+}
+div#about-picture-eco {
+  position: relative;
+  margin: 0 auto;
+}
+.text-eco {
+  color: #000;
+  font-family: SamsungOne;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 42px */
+  padding-right: 128px;
+  padding-left: 128px;
+  padding-top: 118px;
+  padding-bottom: 90px;
+}
+.heading-eco {
+  display: flex;
+  justify-content: center;
+  color: #000;
+  font-family: Samsung Sharp Sans;
+  font-size: 53px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%; /* 74.2px */
+  padding-top: 118px;
+}
+.our-produts-heading {
+  display: flex;
+  justify-content: center;
+  color: #000;
+  font-family: Samsung Sharp Sans;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%; /* 89.6px */
+}
+div#square {
+  width: 350px;
+  height: 350px;
+  border-radius: 19px;
+  background: #eaeced;
+}
+.kvadrat {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 187px;
+  padding-top: 108px;
+  padding-bottom: 90px;
+}
+.smartphone {
+  width: 130px;
+  height: 161px;
+  flex-shrink: 0;
+  margin-top: 61px;
+  margin-left: 110px;
+}
+.smartphone-text {
+  color: #000;
+  font-family: SamsungOne;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 33.6px */
+  margin-top: 50px;
+  margin-left: 109px;
+}
+.tv {
+  width: 235px;
+  height: 141px;
+  flex-shrink: 0;
+  margin-top: 61px;
+  margin-left: 57px;
+}
+.tv-text {
+  color: #000;
+  font-family: SamsungOne;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 33.6px */
+  margin-top: 70px;
+  margin-left: 109px;
+}
+.notebook {
+  width: 235px;
+  height: 165px;
+  flex-shrink: 0;
+  margin-top: 61px;
+  margin-left: 57px;
+}
+.notebook-text {
+  color: #000;
+  font-family: SamsungOne;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 33.6px */
+  margin-top: 58px;
+  margin-left: 123px;
+}
+.our-smartphone-heading {
+  display: flex;
+  justify-content: center;
+  color: #000;
+  font-family: Samsung Sharp Sans;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%; /* 89.6px */
+}
+.S23FE {
+  width: 132px;
+  height: 171px;
+  flex-shrink: 0;
+  margin-top: 62px;
+  margin-left: 109px;
+}
+.S23FE-text {
+  color: #000;
+  font-family: SamsungOne;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 33.6px */
+  margin-top: 39px;
+  margin-left: 141px;
+}
+.S23 {
+  width: 142px;
+  height: 171px;
+  flex-shrink: 0;
+  margin-top: 62px;
+  margin-left: 111px;
+}
+.S23-text {
+  color: #000;
+  font-family: SamsungOne;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 33.6px */
+  margin-top: 39px;
+  margin-left: 154px;
+}
+.S23ULTRA {
+  width: 168 px;
+  height: 171px;
+  flex-shrink: 0;
+  margin-top: 62px;
+  margin-left: 82px;
+}
+.S23ULTRA-text {
+  color: #000;
+  font-family: SamsungOne;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 33.6px */
+  margin-top: 39px;
+  margin-left: 118px;
+}
+.our-tv-heading {
+  display: flex;
+  justify-content: center;
+  color: #000;
+  font-family: Samsung Sharp Sans;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%; /* 89.6px */
+}
+.k4 {
+  width: 241px;
+  height: 180px;
+  flex-shrink: 0;
+  margin-top: 47px;
+  margin-left: 54px;
+}
+.k4-text {
+  color: #000;
+  font-family: SamsungOne;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 33.6px */
+  margin-top: 45px;
+  margin-left: 159px;
+}
+.k8 {
+  width: 278px;
+  height: 180px;
+  flex-shrink: 0;
+  margin-top: 47px;
+  margin-left: 36px;
+}
+.k8-text {
+  color: #000;
+  font-family: SamsungOne;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 33.6px */
+  margin-top: 45px;
+  margin-left: 159px;
+}
+.FULLHD {
+  width: 245px;
+  height: 180px;
+  flex-shrink: 0;
+  margin-top: 47px;
+  margin-left: 52px;
+}
+.FULLHD-text {
+  color: #000;
+  font-family: SamsungOne;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 33.6px */
+  margin-top: 45px;
+  margin-left: 128px;
+}
+.kvadrat2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 307px;
+  padding-top: 108px;
+  padding-bottom: 90px;
+}
+.our-notebook-heading {
+  display: flex;
+  justify-content: center;
+  color: #000;
+  font-family: Samsung Sharp Sans;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%; /* 89.6px */
+}
+.notebookpro {
+  width: 255px;
+  height: 180px;
+  flex-shrink: 0;
+  margin-top: 55px;
+  margin-left: 47px;
+}
+.notebookpro-text {
+  color: #000;
+  font-family: SamsungOne;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 33.6px */
+  margin-top: 37px;
+  margin-left: 71px;
+}
+.notebook360 {
+  width: 273px;
+  height: 180px;
+  flex-shrink: 0;
+  margin-top: 55px;
+  margin-left: 38px;
+}
+.notebook360-text {
+  color: #000;
+  font-family: SamsungOne;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 33.6px */
+  margin-top: 37px;
+  margin-left: 50px;
+}
+.blackline {
+  width: 1680px;
+  height: 15px;
+  background-color: #000;
+}
+.heading-footer {
+  color: #000;
+  font-family: SamsungOne;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.heading-text {
+  color: #000;
+  font-family: SamsungOne;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15px;
+}
+.footer-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 265px;
+}
+.icon-social {
+  display: flex;
+  column-gap: 40px;
+}
+.heading-social {
+  display: flex;
+  justify-content: center;
+  color: #000;
+  font-family: SamsungOne;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 161.895%; /* 51.806px */
+}
+.footer-text {
+  margin-top: 60px;
+  margin-bottom: 95px;
+}
+.footer-logo {
+  margin-top: 202px;
+}
+.footer-social{
+  margin-top: 153px;
+}
